@@ -49,5 +49,4 @@ class balanceAsset extends Contract {
 
 
 }
-
 module.exports = balanceAsset
