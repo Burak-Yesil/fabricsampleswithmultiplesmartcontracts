@@ -252,8 +252,6 @@ class AssetTransfer extends Contract {
         }
         return JSON.stringify(allResults);
     }
-    
-
 
     async BalanceSR(ctx, submissionID){
         const exists = await this.AssetExists(ctx, submissionID);
